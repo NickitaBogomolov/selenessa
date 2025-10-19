@@ -1,0 +1,45 @@
+# Виртуальное окружение
+env/
+.venv/
+venv/
+ENV/
+
+# Файлы компиляции Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Локальные файлы конфигурации
+.env
+.env.local
+.venv
+.venv.local
+
+# Драйверы браузеров (если хранятся в проекте)
+chromedriver
+geckodriver
+selenium-server-standalone.jar
+
+# Логи и отчёты тестов
+logs/
+reports/
+test-results/
+screenshots/
+
+# Файлы зависимостей
+*.egg-info/
+dist/
+build/
+*.egg
+.tox/
+
+# ОС и IDE
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Конфиги и секреты
+credentials.py
+secrets.py
+config.json
