@@ -1,45 +1,141 @@
-# Виртуальное окружение
+# Virtual Environment
+myenv/
 env/
-.venv/
 venv/
+.venv/
 ENV/
+env.bak/
+venv.bak/
 
-# Файлы компиляции Python
+# Python cache and build files
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Локальные файлы конфигурации
-.env
-.env.local
-.venv
-.venv.local
-
-# Драйверы браузеров (если хранятся в проекте)
-chromedriver
-geckodriver
-selenium-server-standalone.jar
-
-# Логи и отчёты тестов
-logs/
-reports/
-test-results/
-screenshots/
-
-# Файлы зависимостей
-*.egg-info/
-dist/
+*.so
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
 *.egg
-.tox/
+MANIFEST
 
-# ОС и IDE
-.DS_Store
-Thumbs.db
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDE
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Конфиги и секреты
-credentials.py
-secrets.py
-config.json
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+
+# Project specific (добавьте свои пути)
+/instance/
+.webassets-cache
+
+# Config files with sensitive data
+config.py
+settings.local.py
+
+# Build and release
+target/
+dist-*/
