@@ -1,3 +1,1 @@
-
-selenium==4.0.0         # Библиотека Selenium для автоматизации браузера
-webdriver-manager==3.8.5  # Управление драйверами (Chrome, Firefox и т.д.)
+playwright==1.40.0
